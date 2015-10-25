@@ -143,6 +143,9 @@ app.get('/contact',function(req,res){
 app.get('/blog',function(req,res){
  res.render('blog', {});
 })
+app.get('/blog-grid',function(req,res){
+ res.render('blog-grid', {});
+})
 
 app.get('/logout', function(req, res) {
     req.logout();
