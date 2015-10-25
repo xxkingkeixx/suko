@@ -1,0 +1,63 @@
+/* 
+tone color : 000000
+tone color-dark : 0000FF
+tone black : 000000 , 191B1C , 000000
+tone white : ECEEE1 , ffffff , F1F1F1 , dbdbdb , e2e2e2
+*/
+
+.hover-text-title-color {
+    border-left: 1px solid #000000;
+}
+
+hr {
+    border-color: #e2e2e2;
+}
+
+.nav-top {
+    border-bottom: 1px solid #000000;
+    background: #000000;
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.dotstyle.border-color li a {
+    background-color: rgba(233,233,233,0.2);
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #000000;
+}
+
+.thumbnails {
+    border-top: 1px #000000 solid;
+}
+
+hr {
+    border-color: #000000;
+}
+
+.cd-dropdown > span {
+    background: #000000;
+}
+
+.cd-dropdown > span:after {
+    border-left: 1px solid #000000;
+}
+
+.cd-dropdown ul li span {
+    background: #000000;
+}
+
+
+.blog-full {
+    border: 1px solid #000000;
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    border-color: #000000;
+}
+
+.progress {
+    background:#000000;
+}

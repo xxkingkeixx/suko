@@ -1,0 +1,559 @@
+
+.bg-white {
+    background:#ffffff;    
+}
+
+.bg-color {
+    background:#00FFFF;
+}
+
+.bg-black {
+    
+    background:#000000;
+}
+
+.border-gradient-left {
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left bottom,
+        color-stop(0, rgb(74, 32, 5)),
+        color-stop(0.56, rgb(242, 101, 13))
+        );
+    background-image: -o-linear-gradient(left, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -moz-linear-gradient(left, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -webkit-linear-gradient(left, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -ms-linear-gradient(left, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: linear-gradient(to left, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    height: 3px;
+    width: 100%;
+}
+
+
+.border-gradient-right {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right bottom,
+        color-stop(0, rgb(74, 32, 5)),
+        color-stop(0.56, rgb(242, 101, 13))
+        );
+    background-image: -o-linear-gradient(right, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -moz-linear-gradient(right, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -webkit-linear-gradient(right, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: -ms-linear-gradient(right, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    background-image: linear-gradient(to right, rgb(74, 32, 5) 0%, rgb(242, 101, 13) 56%);
+    height: 3px;
+    width: 100%;
+}
+
+.border-gradient-center {
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left bottom,
+        color-stop(0.03, rgb(56, 24, 5)),
+        color-stop(0.56, rgb(242, 101, 13)),
+        color-stop(0.98, rgb(56, 24, 5)),
+        color-stop(1, rgb(56, 24, 5))
+        );
+    background-image: -o-linear-gradient(left, rgb(56, 24, 5) 3%, rgb(242, 101, 13) 56%, rgb(56, 24, 5) 98%, rgb(56, 24, 5) 100%);
+    background-image: -moz-linear-gradient(left, rgb(56, 24, 5) 3%, rgb(242, 101, 13) 56%, rgb(56, 24, 5) 98%, rgb(56, 24, 5) 100%);
+    background-image: -webkit-linear-gradient(left, rgb(56, 24, 5) 3%, rgb(242, 101, 13) 56%, rgb(56, 24, 5) 98%, rgb(56, 24, 5) 100%);
+    background-image: -ms-linear-gradient(left, rgb(56, 24, 5) 3%, rgb(242, 101, 13) 56%, rgb(56, 24, 5) 98%, rgb(56, 24, 5) 100%);
+    background-image: linear-gradient(to left, rgb(56, 24, 5) 3%, rgb(242, 101, 13) 56%, rgb(56, 24, 5) 98%, rgb(56, 24, 5) 100%);
+    height: 3px;
+    width: 100%;
+}
+
+.dotstyle-stroke.border-dark li.current a {
+    box-shadow: 0 0 0 2px rgba(34,30,31,0.7);
+    background-color: rgba(34,30,31,0)!important;
+}
+
+.dotstyle.border-dark li a {
+    background-color: rgba(34,30,31,0.2);
+}
+
+.dotstyle-stroke.border-color li.current a {
+    box-shadow: 0 0 0 2px rgba(242,102,13,0.7);
+    background-color: rgba(242,102,13,0)!important;
+}
+
+.dotstyle.border-color li a {
+    background-color: rgba(34,30,31,0.2);
+}
+
+.dotstyle-stroke.border-color li.current a {
+    box-shadow: 0 0 0 2px #00FFFF;
+}
+
+.text-color {
+    color: #00FFFF!important;
+}
+
+.hover-bg-black:hover {
+    background:#000000!important;
+}
+
+.hover-bg-light-black:hover {
+    background:#000000!important;
+}
+
+.hover-bg-white:hover {
+    background:#ffffff!important;
+}
+
+.hover-bg-color:hover {
+    background:#00FFFF!important;
+}
+
+body {
+    background-color:#F1F1F1;
+}
+
+.btn-nav {
+    background:#00FFFF;
+}
+
+.nav-top , .nav-left {
+    background:#fff;
+}
+
+.nav-top {
+    border-bottom: 1px solid #dbdbdb;    
+}
+
+.nav-top ul li a , 
+.nav-left ul li a {
+    color:#00FFFF;
+}
+
+.nav-left ul li.active a {
+    background:#00FFFF;
+    color:#ffffff;
+}
+
+.text-white {
+    color:#ffffff!important;
+}
+
+.text-gray {
+    color: #888!important;
+}
+
+.nav-top ul li a:hover {
+    background-color:#000000;
+    color:#fff;
+}
+
+.nav-top ul li a.search {
+    background-color:#00FFFF;
+    color: #fff!important;
+}
+
+.nav-top ul li a.search:hover i {
+    color: #fff!important;
+}
+
+.nav-left {
+    background:#000000;
+}
+
+.nav-left {
+    background:#000000;
+}
+
+.nav-left ul li a {
+    border-bottom: 1px solid #000000;
+}
+
+.nav-left ul li a:hover  {
+    background-color:#0000FF;
+    color:#fff;
+}
+.nav-left ul li a:hover:after {
+    background:#00FFFF;
+    color:#fff;
+}
+
+.nav-left ul li a:hover:before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #0000FF;
+}
+
+.modal-header {
+    color:#fff;
+}
+
+.modal-header .glyphicon-remove {
+    color:#fff;
+    border-radius: 50%;
+}
+
+.btn-Suko-modal {
+    color:#ccc;
+    background-color:#000000;
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);  -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.btn-Suko-modal:hover {
+    color:#fff;
+    padding-left: 80px;
+}
+
+.btn-Suko-modal:after {
+    color:#fff;
+    background:#00FFFF;
+}
+
+.btn-Suko-modal:before , .btn-Suko-modal:hover:before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #00FFFF;
+}
+
+.btn-Suko-transparent {
+    border:3px solid #ECEEE1;
+    color:#ECEEE1;
+}
+
+.dark.btn-Suko-transparent {
+    border:3px solid #000000!important;
+    color:#000000!important;
+}
+
+.gray.btn-Suko-transparent {
+    border:3px solid #898989!important;
+    color:#898989!important;
+}
+
+.btn-Suko-transparent:hover {
+    border:3px solid #00FFFF!important;
+    color:#00FFFF!important;
+}
+
+.box-icon {
+    background:#00FFFF;
+    color:#fff;
+}
+
+
+h1,h2,h3,h4,h5,h6 , p {
+    color:#434141;
+}
+
+.section-white {
+    background:#ffffff;
+}
+
+.section-color {
+    background:#00FFFF;
+}
+
+.section-gray {
+    background:#F1F1F1;
+}
+
+.section-black {
+    background:#000000;
+}
+
+.section-dark {
+    background:#000000;
+}
+
+.section-very-dark {
+    background:#000000;
+}
+
+.around-white p , 
+.around-white i , 
+.around-white a , 
+.around-white span , 
+.around-white div ,
+.around-white small ,
+.around-white h1 ,
+.around-white h2 ,
+.around-white h3 ,
+.around-white h4 ,
+.around-white h5 ,
+.around-white h6 {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.around-black p , 
+.around-black i , 
+.around-black a , 
+.around-black span , 
+.around-black div ,
+.around-black small ,
+.around-black h1 ,
+.around-black h2 ,
+.around-black h3 ,
+.around-black h4 ,
+.around-black h5 ,
+.around-black h6 {
+    color:#000000;
+    text-decoration: none;
+}
+
+.hover-around-white:hover p , 
+.hover-around-white:hover i , 
+.hover-around-white:hover a , 
+.hover-around-white:hover span , 
+.hover-around-white:hover div ,
+.hover-around-white:hover small ,
+.hover-around-white:hover h1 ,
+.hover-around-white:hover h2 ,
+.hover-around-white:hover h3 ,
+.hover-around-white:hover h4 ,
+.hover-around-white:hover h5 ,
+.hover-around-white:hover h6 {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.hover-around-black:hover p , 
+.hover-around-black:hover i , 
+.hover-around-black:hover a , 
+.hover-around-black:hover span , 
+.hover-around-black:hover div ,
+.hover-around-black:hover small ,
+.hover-around-black:hover h1 ,
+.hover-around-black:hover h2 ,
+.hover-around-black:hover h3 ,
+.hover-around-black:hover h4 ,
+.hover-around-black:hover h5 ,
+.hover-around-black:hover h6 {
+    color:#000000;
+    text-decoration: none;
+}
+
+.hover-text-color a:hover , 
+.hover-text-color:hover {
+    color:#00FFFF!important;
+    text-decoration: none;
+}
+
+.hover-text-white:hover {
+    color:#FFFFFF!important;
+    text-decoration: none;
+}
+
+.ourteam-box:hover .ourteam-position
+{
+    color:#00FFFF;
+    font-weight: 700;
+}
+
+.hover-text-title-color:hover .text-title {
+    color:#00FFFF;
+    /*-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);*/
+}
+
+.btn-Suko-blog {
+    color:#898989;
+}
+
+.btn-Suko-blog:hover {
+    color:#00FFFF;
+}
+
+a:hover h1 ,
+a:hover h2 ,
+a:hover h3 ,
+a:hover h4 ,
+a:hover h5 ,
+a:hover h6 ,
+a:hover span ,
+a:hover i
+{
+    color:#00FFFF!important;
+}
+
+.icon-title-blog a {
+    color:#000000;
+    border-left: 1px solid #e2e2e2;
+}
+
+.icon-title-blog a:hover {
+    color:#00FFFF;
+}
+
+.hover-text-title-color:first-child {
+    border-left: 0px solid #e2e2e2!important;
+}
+.hover-text-title-color {
+    border-left: 1px solid #e2e2e2;
+    min-height: 150px;
+}
+
+hr {
+    border-color:#e2e2e2;
+}
+
+.navigation-isotope a {
+    color:#000000;
+    font-style: italic;
+    margin-left: -4px;
+}
+
+.navigation-isotope a:hover {
+    color:#00FFFF;
+}
+
+.navigation-isotope a.active {
+    color:#00FFFF;
+    font-weight:700;
+}
+
+.navigation-isotope a:before {
+    content: ' / ';
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-right: 10px;
+}
+
+.navigation-isotope a:first-child:before {
+    content: '';
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-left: 10px;
+}
+
+.progress-bar {
+    background-color:#00FFFF;
+}
+
+.show-dialog:hover {
+}
+
+.wrapper-hover article nav.social-work a {
+    color:#ffffff;
+    border-radius: 50%;
+    border:1px solid #ffffff;
+    padding: 5px 8px;
+    padding-top: 7px;
+    margin: 10px 5px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.wrapper-hover article nav.social-work a:hover ,.wrapper-hover article header a:hover{
+    color:#00FFFF;
+    border-color:#00FFFF;
+}
+
+.wrapper-hover article header a {
+    color:#ffffff;
+}
+
+.text-hover-color:hover {
+    color:#00FFFF!important;
+}
+
+.box-shadow {
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.hover-box-shadow:hover {
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+.box-shadow-soft {
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.hover-box-shadow-soft:hover {
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.border-gray {
+    border:1px solid #ECEEE1;
+}
+
+.nav-tabs>li.active>a {
+    background:#00FFFF;
+    color:#fff!important;
+}
+
+.nav-tabs>li>a:hover {
+    background:#0000FF!important;
+    color:#fff!important;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #000000;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    background: #00FFFF;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #00FFFF;
+    border-color: #00FFFF;
+    cursor: default;
+}
+
+.pagination>li>a, .pagination>li>span { 
+    color: #00FFFF;
+    margin: 3px;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    color: #fff;
+    background-color: #0000FF;
+    border-color: #0000FF;
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    color: #999;
+    background-color: #fff;
+    cursor: not-allowed;
+}
+
+.pagination>.disabled a , .pagination>.disabled:hover a  {
+    background-color: #000000;
+    color:#fff;
+}
+
+.cd-active.cd-dropdown > span {
+    color: #00FFFF;
+}
+
+.cd-active.cd-dropdown ul li span:hover {
+    background: #00FFFF;
+}
+
+ul.navigation-item li a { 
+    color:#bcbcbc;
+    border-bottom: 1px solid #eee;
+}
+
+ul.navigation-item li a:hover { 
+    background: #00FFFF;
+    border-bottom: 1px solid #00FFFF;
+    color:#fff;
+}
