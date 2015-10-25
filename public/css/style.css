@@ -238,7 +238,7 @@ img.max-width {
 .text-medium {
     font-size: 1.125em;
     line-height: 1.779;
-    padding: .6em; /*responsible for footer height black space*/
+    padding: .55em; /*responsible for footer height black space*/
 }
 
 .text-smaller {
