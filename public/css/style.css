@@ -493,6 +493,7 @@ Header || Navigation Left
 
 .body.small {
     width: 100%;
+    margin-left: 0px;
     position: relative;
     padding:20px 70px;
 }
