@@ -131,6 +131,9 @@ app.get('/settings',function(req,res){
 app.get('/episode',function(req,res){
  res.render('episode', {});
 })
+app.get('/episode-grid',function(req,res){
+ res.render('episode-grid', {});
+})
 
 app.get('/logout', function(req, res) {
     req.logout();
