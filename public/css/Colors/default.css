@@ -109,11 +109,11 @@
 }
 
 body {
-    background-color:#F1F1F1;
+    background-color:#000000;
 }
 
-.btn-nav {
-    background:#00FFFF;
+.btn-nav {   /* top left icon and icons */
+    background:#000000;
 }
 
 .nav-top , .nav-left {
@@ -125,7 +125,7 @@ body {
 }
 
 .nav-top ul li a , 
-.nav-left ul li a {
+.nav-left ul li a {  /*color of icons*/
     color:#00FFFF;
 }
 
@@ -142,17 +142,17 @@ body {
     color: #888!important;
 }
 
-.nav-top ul li a:hover {
+.nav-top ul li a:hover {  /*social tab hover*/
     background-color:#000000;
     color:#fff;
 }
 
-.nav-top ul li a.search {
+.nav-top ul li a.search {  /*SEARCH BUTTON*/
     background-color:#00FFFF;
     color: #fff!important;
 }
 
-.nav-top ul li a.search:hover i {
+.nav-top ul li a.search:hover i {  /*SEARCH BUTTON*/
     color: #fff!important;
 }
 
@@ -168,20 +168,21 @@ body {
     border-bottom: 1px solid #000000;
 }
 
-.nav-left ul li a:hover  {
-    background-color:#fa8217;
+.nav-left ul li a:hover  {  
+    background-color:#000;
     color:#fff;
 }
-.nav-left ul li a:hover:after {
+.nav-left ul li a:hover:after {  /* HOVER ON ICON INTERACTION*/
     background:#00FFFF;
-    color:#fff;
+    color:#000;
+    
 }
 
-.nav-left ul li a:hover:before {
+.nav-left ul li a:hover:before {   /*TRIANGLE IN INCON HOVER*/
     border-bottom: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid transparent;
-    border-left: 10px solid #0000FF;
+    border-left: 10px solid #000;
 }
 
 .modal-header {
