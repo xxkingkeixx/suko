@@ -126,8 +126,11 @@ app.post('/signup', function(req,res){
 
 app.get('/settings',function(req,res){
  res.render('settings', {});
-});
+})
 
+app.get('/episode',function(req,res){
+ res.render('settings', {});
+})
 
 app.get('/logout', function(req, res) {
     req.logout();
