@@ -129,7 +129,7 @@ app.get('/settings',function(req,res){
 })
 
 app.get('/episode',function(req,res){
- res.render('settings', {});
+ res.render('episode', {});
 })
 
 app.get('/logout', function(req, res) {
