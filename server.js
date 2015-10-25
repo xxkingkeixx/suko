@@ -143,10 +143,12 @@ app.get('/ping', function(req, res){
     res.send("pong!", 200);
 });
 
-var ipaddr  = process.env.OPENSHIFT_NODEJS_IP;
-var port    = parseInt(process.env.OPENSHIFT_NODEJS_PORT) || 3000;
+// set the port of our application
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 8080;
 
-var server = app.listen(port, ipaddr, function() {
+
+var server = app.listen(port, function() {
     console.log('Listening on port %d', server.address().port);
 })
 
