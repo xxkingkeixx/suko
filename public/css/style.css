@@ -238,7 +238,7 @@ img.max-width {
 .text-medium {
     font-size: 1.125em;
     line-height: 1.779;
-    padding: .7em;
+    /*padding: .7em;*/
 }
 
 .text-smaller {
