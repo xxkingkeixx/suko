@@ -134,6 +134,12 @@ app.get('/episode',function(req,res){
 app.get('/episode-grid',function(req,res){
  res.render('episode-grid', {});
 })
+app.get('/episode-full',function(req,res){
+ res.render('episode-full', {});
+})
+app.get('/contact',function(req,res){
+ res.render('contact', {});
+})
 
 app.get('/logout', function(req, res) {
     req.logout();
