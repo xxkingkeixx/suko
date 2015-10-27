@@ -128,23 +128,17 @@ app.get('/settings', loggedin, function(req,res){
  res.render('settings', {});
 })
 
-app.get('/episode',function(req,res){
+app.get('/episode', loggedin,function(req,res){
  res.render('episode', {});
 })
-app.get('/episode-grid',function(req,res){
+app.get('/episode-grid',loggedin,function(req,res){
  res.render('episode-grid', {});
 })
-app.get('/episode-full',function(req,res){
+app.get('/episode-full',loggedin,function(req,res){
  res.render('episode-full', {});
 })
-app.get('/contact',function(req,res){
+app.get('/contact',loggedin,function(req,res){
  res.render('contact', {});
-})
-app.get('/blog',function(req,res){
- res.render('blog', {});
-})
-app.get('/blog-grid',function(req,res){
- res.render('blog-grid', {});
 })
 
 app.get('/logout', function(req, res) {
