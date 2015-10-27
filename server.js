@@ -124,7 +124,7 @@ app.post('/signup', function(req,res){
 
 });
 
-app.get('/settings',function(req,res){
+app.get('/settings', loggedin, function(req,res){
  res.render('settings', {});
 })
 
