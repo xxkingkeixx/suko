@@ -64,7 +64,7 @@ passport.deserializeUser(Account.deserializeUser());
 
 
 
-//see if user is loged in?
+//see if user is logged in , add "loggedin" to line in function to CHECKAUTH of page
 function loggedin(req,res){
     if (req.user) {
       return true;
