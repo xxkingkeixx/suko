@@ -125,19 +125,24 @@ app.post('/signup', function(req,res){
 });
 
 app.get('/settings', function(req,res){
+     loggedin(req,res);
  res.render('settings', {});
 })
 
 app.get('/episode',function(req,res){
+     loggedin(req,res);
  res.render('episode', {});
 })
 app.get('/episode-grid',function(req,res){
+     loggedin(req,res);
  res.render('episode-grid', {});
 })
 app.get('/episode-full',function(req,res){
+     loggedin(req,res);
  res.render('episode-full', {});
 })
 app.get('/contact',function(req,res){
+     loggedin(req,res);
  res.render('contact', {});
 })
 
