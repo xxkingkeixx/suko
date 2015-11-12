@@ -560,3 +560,12 @@ ul.navigation-item li a:hover {
     border-bottom: 1px solid #00FFFF;
     color:#fff;
 }
+
+.off {
+    top: 38px;
+    left: 6.4%;
+    z-index: 5;
+    font-size: 1.2em;
+    color: #FFF;
+    
+}
