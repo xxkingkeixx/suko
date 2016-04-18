@@ -16,6 +16,8 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
     </head>
+    
+    
     <body>
 
         <audio>
@@ -278,8 +280,14 @@
         
       
 
-
-        <script src="js/jquery.min.js"></script>
+         <script src="js/jquery.min.js"></script>
+        <script> 
+        var audio = $("hover.mp3")[0];
+$("nav-left").mouseenter(function() {
+  audio.play();
+});
+        </script>
+       
         <script src="js/zepto.min.js"></script>
         <script src="js/SmoothScroll.js"></script>
         <script src="js/modernizr.custom.js"></script>
@@ -336,9 +344,6 @@
 
         <script src="js/custom.js"></script>
         
-          <script>var audio = $("hover.mp3")[0];
-$("nav-left").mouseenter(function() {
-  audio.play();
-});</script>
+         
     </body>
 </html>
