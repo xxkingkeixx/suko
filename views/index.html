@@ -18,7 +18,11 @@
     </head>
     <body>
 
-        
+        <audio>
+	<source src="Sounds/hover.mp3"></source>
+	
+	Your browser isn't invited for super fun audio time.
+</audio>
 
         <div id="item-video" class="modal fade modal-video-play" tabindex="-1" role="dialog" >
             <div class="modal-dialog modal-lg">
@@ -271,6 +275,11 @@
 
 
         </section>
+        
+        <script type="text/javascript">var audio = $("hover.mp3")[0];
+$("nav-left").mouseenter(function() {
+  audio.play();
+});</script>
 
 
         <script src="js/jquery.min.js"></script>
