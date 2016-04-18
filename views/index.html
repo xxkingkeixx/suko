@@ -14,23 +14,12 @@
         <link href="css/Colors/default.css" rel="stylesheet">
         <link href="css/dark.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
- <script> 
-        var audio = $("hover.mp3")[0];
-$("nav-left").mouseenter(function() {
-  audio.play();
-});
-        </script>
+        <script type="text/javascript" src="sound-mouseover.js"></script>
+       
     </head>
     
     
     <body>
-
-        <audio>
-	<source src="Sounds/hover.mp3"></source>
-	
-	Your browser isn't invited for super fun audio time.
-</audio>
 
         <div id="item-video" class="modal fade modal-video-play" tabindex="-1" role="dialog" >
             <div class="modal-dialog modal-lg">
@@ -214,13 +203,13 @@ $("nav-left").mouseenter(function() {
                     </li>
                 </ul>
             </nav>
-            <nav class="nav-left">
+            <nav class="nav-left" onmouseover="playclip();">
                 <ul>
                     <li>
-                        <a href="index.php" data-rel="Home"><i class="glyphicon glyphicon-heart-empty"></i></a>
+                        <a href="index.php" data-rel="Home"><i class="glyphicon glyphicon-heart-empty" ></i></a>
                     </li>
                     <li>
-                        <a href="" data-rel="Settings"><i class="li_settings"></i></a>
+                        <a href="" data-rel="Settings"><i class ="li_settings"></i></a>
                     </li>
                     <li>
                         <a href="" data-rel="Discover"><i class="li_paperplane"></i></a>
@@ -285,6 +274,12 @@ $("nav-left").mouseenter(function() {
         </section>
         
       
+        <audio>
+	<source src="Sounds/hover.mp3"></source>
+	
+	Your browser isn't invited for super fun audio time.
+</audio>
+
 
          <script src="js/jquery.min.js"></script>
        
