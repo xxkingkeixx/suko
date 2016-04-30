@@ -219,7 +219,7 @@ img.max-width {
 }
 
 .text-extra-big {
-    font-size: 72px;
+    font-size: 60px;
 }
 
 .text-big {
@@ -2353,4 +2353,8 @@ textarea.error:-ms-input-placeholder
 
 .panel {
     background: transparent;
+}
+
+#footer {
+    height: 50px;
 }
