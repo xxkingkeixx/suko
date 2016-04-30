@@ -260,12 +260,12 @@ h1,h2,h3,h4,h5,h6 , p {
 }
 
 .section-black {
-    /*height:80px;*/
+    /*height:80px;*/     <-------this shit uncomment , and control is yours
     background:#000000;
 }
 
 .section-dark {
-    /*height: 80px;*/
+    /*height: 80px;*/ <---- footer is based off of .section global styles
     background:#000000;
 }
 
