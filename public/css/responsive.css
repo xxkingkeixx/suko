@@ -1,12 +1,12 @@
 /* Laptop/Tablet (1024px) */
 body .wrapper [class*="section"] > .body {
     margin: auto;
-    max-width: 1800px;
+    max-width: 1360px;
     
 }
 
 .body {
-    max-width: 180px;
+    max-width: 1360px;
     margin: auto;
 }
 
