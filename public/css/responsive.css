@@ -2,6 +2,7 @@
 body .wrapper [class*="section"] > .body {
     margin: auto;
     max-width: 1360px;
+    height: 200px;
 }
 
 .body {
