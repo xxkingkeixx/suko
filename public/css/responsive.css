@@ -1,0 +1,346 @@
+/* Laptop/Tablet (1024px) */
+body .wrapper [class*="section"] > .body {
+    margin: auto;
+    max-width: 1800px;
+    
+}
+
+.body {
+    max-width: 180px;
+    margin: auto;
+}
+
+.body.full {
+    max-width: 100%!important; 
+    padding: 0px!important;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body .wrapper [class*="section"] > .body {
+        margin: auto;
+        width: 748px;
+        padding: 40px;
+
+    }
+
+    body .wrapper [class*="section"] > .body.full {
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body .wrapper [class*="section"] > .body {
+        margin: auto;
+        width: 668px;
+        padding: 40px;
+    }
+
+    body .wrapper [class*="section"] > .body.full {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .hover-text-title-color {
+        border-left:0!important;
+    }
+
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 481px) and (orientation: landscape) {
+
+    .body {
+        margin: auto;
+        width: 465px;
+        padding: 30px!important;
+    }
+
+    body .wrapper [class*="section"] > .body.full {
+        width: 100%;
+        padding: 0px!important;
+    }
+
+    .nav-left {
+        left:-100%!important;
+    }
+
+    .wrapper {
+        padding-left: 0!important;
+        padding-top: 60px!important;
+    }
+
+    .widget-sidebar {
+        padding-top: 60px!important;
+    }
+
+    .text-super-big {
+        font-size: 32px!important;
+    }
+
+    .text-extra-big {
+        font-size: 36px!important;
+    }
+
+    .text-big {
+        font-size: 22px!important;
+    }
+
+    .text-large {
+        font-size: 16px!important;
+    }
+
+    .text-medium-large {
+        font-size: 14px!important;
+        line-height: 1.6;
+    }
+
+    .text-medium {
+        font-size: 0.955em!important;
+        line-height: 1.779;
+    }
+
+    .text-smaller {
+        font-size: 12px;
+    }
+
+    .text-smallest {
+        font-size: 8px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .hover-text-title-color {
+        border-left:0!important;
+    }
+
+    .specing-single {
+        position: relative;
+        padding:30px 20px!important;
+    }
+
+    .commentlist .the-comment .comment-text {
+        margin-left: 0px!important;
+        clear: both;
+        margin-top: 40px;
+    }
+
+    .commentlist {
+        padding: 0px;
+    }
+
+    ul.children {
+        padding: 0px!important;
+    }
+
+    .nav-top {
+        height: 60px!important;
+    }
+
+    .header > .btn-nav {
+        height: 60px!important;
+        width: 60px!important;
+    }
+
+    .header > .btn-nav a {
+        font-size: 28px!important;
+        padding: 11.5px 16.5px!important;
+        display: block!important;
+        color: #fff!important;
+    }
+
+    .nav-top ul li a {
+        padding: 20px!important;
+        display: block!important;
+    }
+
+    .box-spacing-blog h3 {
+        padding: 20px 0;
+    }
+
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+
+    .body {
+        margin: auto;
+        width: 305px;
+        padding: 30px!important;
+    }
+
+    body .wrapper [class*="section"] > .body.full {
+        width: 100%;
+        padding: 0px!important;
+    }
+
+    .nav-left {
+        left:-100%!important;
+    }
+
+    .wrapper {
+        padding-left: 0!important;
+        padding-top: 60px!important;
+    }
+
+    .widget-sidebar {
+        padding-top: 60px!important;
+    }
+
+    .text-super-big {
+        font-size: 42px!important;
+    }
+
+    .text-extra-big {
+        font-size: 36px!important;
+    }
+
+    .text-big {
+        font-size: 32px!important;
+    }
+
+    .text-large {
+        font-size: 16px!important;
+    }
+
+    .text-medium-large {
+        font-size: 14px!important;
+        line-height: 1.6;
+    }
+
+    .text-medium {
+        font-size: 0.955em!important;
+        line-height: 1.779;
+    }
+
+    .text-smaller {
+        font-size: 12px;
+    }
+
+    .text-smallest {
+        font-size: 8px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .hover-text-title-color {
+        border-left:0!important;
+    }
+
+    .specing-single {
+        position: relative;
+        padding:30px 20px!important;
+    }
+
+    .commentlist .the-comment .comment-text {
+        margin-left: 0px!important;
+        clear: both;
+        margin-top: 40px;
+    }
+
+    .commentlist {
+        padding: 0px;
+    }
+
+    ul.children {
+        padding: 0px!important;
+    }
+
+    .nav-top {
+        height: 60px!important;
+    }
+
+    .header > .btn-nav {
+        height: 60px!important;
+        width: 60px!important;
+    }
+
+    .header > .btn-nav a {
+        font-size: 28px!important;
+        padding: 11.5px 16.5px!important;
+        display: block!important;
+        color: #fff!important;
+    }
+
+    .nav-top ul li a {
+        padding: 20px!important;
+        display: block!important;
+    
+        font-size: 14px;
+        padding-left: 27px!important;
+        /* text-align: center; */
+}
+
+    .icon-title-blog {
+        clear:both;
+        float:none!important;
+        margin: auto;
+        /* display:inline-block; */
+        width: 221px;
+        position: relative;
+    }
+
+    .icon-title-blog a:first-child {
+        border-color:transparent;
+    }
+
+    .box-spacing-blog h3 {
+        padding: 20px 0;
+    }
+
+    .position-top {
+        top:20px!important;  
+    }
+
+    .position-bottom {
+        bottom:20px!important;  
+    }
+
+    .position-left {
+        left:20px!important;  
+    }
+
+    .position-right {
+        right:20px!important;  
+    }
+    #newsletter_email {
+        width: 235px!important;
+    }
+
+    .countdown-item .label-number {
+        font-size: 200%!important;
+    }
+
+    .cd-dropdown, .cd-select {
+        position: relative;
+        width: 220px!important;
+        margin: 20px auto;
+        display: block;
+        float: right;
+    }
+
+    .cd-dropdown > span, .cd-dropdown ul li {
+        width: 220px!important;
+    }
+
+    .cd-dropdown > span, .cd-dropdown.cd-active ul li {
+        width: 220px!important;
+    }
+    .widget-sidebar {
+        opacity: 1.0!important;
+    }
+    
+    .btn-Suko-blog {
+        padding-left: 0px!important;
+    }
+    
+
+}
+
