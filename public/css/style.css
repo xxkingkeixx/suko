@@ -215,7 +215,7 @@ img.max-width {
 }
 
 .text-super-big {
-    font-size: 84px;
+    font-size: 40px;
 }
 
 .text-extra-big {
@@ -231,7 +231,7 @@ img.max-width {
 }
 
 .text-medium-large {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -258,7 +258,7 @@ img.max-width {
 }
 
 .text-spacing-small {
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .text-spacing-smaller {
@@ -2353,8 +2353,4 @@ textarea.error:-ms-input-placeholder
 
 .panel {
     background: transparent;
-}
-
-#footer {
-    height: 50px;
 }
