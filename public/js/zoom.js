@@ -1,6 +1,6 @@
 
         function zoom() {
-            document.html.style.zoom = "75%" 
+            document.body.style.zoom = "75%" 
         }
 
 
