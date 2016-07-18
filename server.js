@@ -117,7 +117,7 @@ app.post('/signup', function(req,res){
 
         passport.authenticate('local')(req, res, function () {
             //res.redirect('/dashboard');
-            res.redirect('/settings');
+            res.redirect('/dashboard');
         });
     });
 
@@ -127,6 +127,9 @@ app.post('/signup', function(req,res){
 app.get('/settings', function(req,res){
      loggedin(req,res);
  res.render('settings', {});
+})
+app.get('/secrets', function(req,res){
+res.render('secrets', {});
 })
 
 app.get('/episode',function(req,res){
@@ -145,10 +148,7 @@ app.get('/contact',function(req,res){
      loggedin(req,res);
  res.render('contact', {});
 })
-app.get('/secrets',function(req,res){
-      loggedin(req,res);
- res.render('secret', {});
-})
+
 
 app.get('/logout', function(req, res) {
     req.logout();
