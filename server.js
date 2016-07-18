@@ -133,6 +133,11 @@ app.get('/secrets', function(req,res){
  res.render('secrets', {});
 })
 
+app.get('/oh.txt', function(req,res){
+
+ res.render('oh.txt', {});
+})
+
 app.get('/episode',function(req,res){
      loggedin(req,res);
  res.render('episode', {});
