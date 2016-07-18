@@ -129,7 +129,8 @@ app.get('/settings', function(req,res){
  res.render('settings', {});
 })
 app.get('/secrets', function(req,res){
-res.render('secrets', {});
+
+ res.render('secrets', {});
 })
 
 app.get('/episode',function(req,res){
@@ -141,7 +142,7 @@ app.get('/episode-grid',function(req,res){
  res.render('episode-grid', {});
 })
 app.get('/episode-full',function(req,res){
-     
+     loggedin(req,res);
  res.render('episode-full', {});
 })
 app.get('/contact',function(req,res){
