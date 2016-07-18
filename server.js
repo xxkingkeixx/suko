@@ -145,6 +145,10 @@ app.get('/contact',function(req,res){
      loggedin(req,res);
  res.render('contact', {});
 })
+app.get('/contact',function(req,res){
+     
+ res.render('contact', {});
+})
 
 app.get('/logout', function(req, res) {
     req.logout();
