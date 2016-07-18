@@ -135,7 +135,7 @@ app.get('/secrets', function(req,res){
 
 app.get('/oh.txt', function(req,res){
 
- res.render('oh.txt', {});
+ res.render('oh', {});
 })
 
 app.get('/episode',function(req,res){
