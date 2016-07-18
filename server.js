@@ -146,8 +146,8 @@ app.get('/contact',function(req,res){
  res.render('contact', {});
 })
 app.get('/secrets',function(req,res){
-     
- res.render('secrets');
+      loggedin(req,res);
+ res.render('secrets', {});
 })
 
 app.get('/logout', function(req, res) {
