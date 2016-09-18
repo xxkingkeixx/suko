@@ -215,23 +215,23 @@ img.max-width {
 }
 
 .text-super-big {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .text-extra-big {
-    font-size: 40px;
+    font-size: 26px;
 }
 
 .text-big {
-    font-size: 54px;
+    font-size: 26px;
 }
 
 .text-large {
-    font-size: 34px;
+    font-size: 16px;
 }
 
 .text-medium-large {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.6;
 }
 
@@ -270,7 +270,7 @@ img.max-width {
 }
 
 .text-box {
-    padding: 15px 20px;
+    padding: 12px 16px;
 }
 
 .portfolio-link-center {
@@ -649,287 +649,7 @@ select.form-control option {
 }
 
 
-/* 
---------------------------------------------------
-Portfolio || Our Work
---------------------------------------------------
-*/
 
-.col-4 {
-    width: 25%;
-    background:#ccc;
-    float:left;
-    position:relative;
-}
-
-.caption {
-    position: absolute;
-    opacity: 0;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    /* animations */
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.caption-description {
-    text-align: center;
-}
-
-.col-4:hover .caption {
-    opacity: 1;
-}
-
-.col-4:hover .wrapper {
-    opacity: 0.7;
-}
-
-.col-4:hover .caption-description {
-    color:#fff;
-    position:relative;
-    z-index:7;
-}
-
-.caption-description span {
-    font-size: 64px;
-}
-
-.box-icon {
-    padding: 25px;
-    font-size: 36px;
-    margin-right: 20px;
-}
-
-.thumbnail-services {
-    border-color: #00a8ff!important;
-}
-
-.thumbnail-services span {
-    font-size: 25px;
-}
-
-/* 
---------------------------------------------------
-Out Team
---------------------------------------------------
-*/
-
-.ourteam-box .thumbnail-img {
-    padding: 0px 0;
-
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    margin-bottom: 20px;
-    max-width: 100%;
-}
-
-
-.ourteam-box {
-    margin: 20px 0;
-
-}
-
-.ourteam-box:hover .line-div {
-    background-color:#287ce1;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.ourteam-box a.social {
-    color:#313131;
-}
-
-.ourteam-box a.social:hover {
-    color:#fff;
-}
-
-.ourteam-name {
-    font-size: 1.125em;
-}
-
-.ourteam-position {
-    font-size: 1.185em;
-    font-weight: 300;
-}
-
-.ourteam-message {
-    padding: 10px 0;
-}
-
-.icon-title {
-    font-size: 105px;
-}
-
-.follow-form{
-    padding: 35px 20px;
-}
-
-.sector-follow {
-    padding: 40px 0;
-    background:#efefef;
-}
-
-.social {
-    font-size: 22px;
-    padding: 10px;
-}
-
-.wrapper-hover-white {
-    position: absolute;
-    background: rgba(255,255,255,0.6);
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    top:0;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-.wrapper-hover-white:hover {
-    top:0;
-    opacity: 1.0;
-}
-
-.wrapper-hover {
-    position: absolute;
-    background: rgba(0,0,0,0.6);
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    top:0;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-.wrapper-hover article header a {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-.wrapper-hover article nav.social-work a {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-
-.wrapper-hover:hover {
-    opacity: 1.0;
-}
-
-.wrapper-hover p {
-    color:#fff;
-}
-
-.thumbnail-img {
-    position: relative;
-}
-
-.ourteam-box .ourteam-position
-{
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-.hover-text-title-color .text-title {
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
-
-.btn-Suko-blog {
-    text-align: center;
-    padding: 10px;
-
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-    border-radius: 0;
-}
-
-a.btn-Suko-blog:first-child {
-    padding-left:0;
-}
-
-.blog-message {
-    padding: 20px 20px;
-    float:left;
-
-}
-
-
-.blog-full {
-    border:1px solid #e8e8e8;
-}
-
-.blog-grid {
-    margin-top: 30px;
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);  
-    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.1);  
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-}
-
-.blog-grid:first-child {
-    margin-top: 0px;
-}
-
-.icon-title-blog a {
-    padding: 10px 25px;
-    display: inline-block;
-    font-size: 24px;
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-    height: 50px;
-    margin: 20px 0;
-    margin-right: -4px;
-}
-
-.col-grid {
-    padding: 0 30px;
-}
-
-.navigation-isotope a {
-    padding: 15px;
-    padding-right: 0px;
-    display:inline-block;
-    font-size: 13px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-font-smoothing:antialiased;
-}
 
 /**** Isotope Filtering ****/
 
@@ -2123,7 +1843,7 @@ iframe {
 }
 
 .btn-Suko-transparent {
-    padding: 10px 20px;
+    padding: 8px 16px;
 }
 
 /*============================*/
