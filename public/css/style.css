@@ -236,7 +236,7 @@ img.max-width {
 }
 
 .text-medium {
-    font-size: .90em;
+    font-size: .80em;
     line-height: 1.2;
     
 }
@@ -496,7 +496,7 @@ Header || Navigation Left
     width: 100%;
     margin-left: 0px;
     position: relative;
-    padding:20px 70px;
+    padding:12px 70px;
 }
 
 .body.medium {
