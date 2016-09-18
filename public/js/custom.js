@@ -39,10 +39,10 @@
                 window_fullscreen($(data));
             });
 
-            $(".control-youtube").css({overflow: 'hidden', width: $(".wrapper").width(), 'min-height': $(window).height() - 75});
+            $(".control-youtube").css({overflow: 'hidden', width: $(".wrapper").width(), 'min-height': $(window).height() - 45});
             $(".DivParent-background-full").each(function(key, data) {
                 $(data).css({
-                    'min-height': $(window).height() - 75,
+                    'min-height': $(window).height() - 45,
                     'height': $(data).find(".DivWhichNeedToBeVerticallyAligned").height()
                 });
             });
@@ -51,7 +51,7 @@
 
         function window_fullscreen($element) {
             $($element).css({
-                'min-height': $(window).height() - 75
+                'min-height': $(window).height() - 40
             });
         }
 
@@ -60,14 +60,14 @@
                 'background-image': 'url(' + $($element).data("background") + ')',
                 'background-size': 'cover',
                 'background-position': 'center',
-                'min-height': $(window).height() - 75
+                'min-height': $(window).height() - 40
             });
             $(".DivParent-background-full").css({
-                'min-height': $(window).height() - 75
+                'min-height': $(window).height() - 40
             });
             $(".DivParent-background-full").each(function(key, data) {
                 $(data).css({
-                    'min-height': $(window).height() - 75,
+                    'min-height': $(window).height() - 40,
                     'height': $(data).find(".DivWhichNeedToBeVerticallyAligned").height()
                 });
             });
