@@ -766,7 +766,7 @@ select.form-control option {
     margin: auto;
     min-height: 360px;
     position: relative;
-    padding: 40px 20px;
+    padding: 40px;
     z-index: 11;
 }
 .signup-form {
